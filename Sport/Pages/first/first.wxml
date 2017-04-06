@@ -1,0 +1,22 @@
+<view class="container">
+    <view class="left">
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>4</view>
+    <view>5</view>
+    <view>6</view>
+    <view>7</view>
+    <view>8</view>
+    <view>9</view>
+    <view>10</view>
+    <view>11</view>
+    <view>12</view>
+    <view>13</view>   
+    <view>14</view>   
+    <view>15</view>      
+</view>
+<view class="right">
+     <view></view>
+</view>
+</view>

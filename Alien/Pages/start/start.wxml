@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="logo" src="/Images/alien.png"></image>
+    <text class="userName">你好新手</text>
+    <view class="start-container">
+        <text class="start">开启我的小程序</text>
+    </view>
+</view>

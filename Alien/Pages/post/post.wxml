@@ -1,0 +1,29 @@
+<view>
+  <swiper indicator-dots="true" indicator-active-color="#00BFFF" indicator-color="rgba(0,255,0,.3)" autoplay="true">
+    <swiper-item>
+      <image src="/Images/iqiyi.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/Images/vr.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/Images/wx.png"></image>
+    </swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-date-user">
+      <image class="post-user" src="/Images/alien.png"></image>
+      <text class="post-date">2017-4-5</text>
+    </view>
+    <text>待到山花烂漫时，她在丛中笑</text>
+    <image src="/Images/post/bl.png"></image>
+    <text>待到山花烂漫时，她在丛中笑</text>
+    <text></text>
+    <view class="classname">
+      <image src="/Images/icon/star.png"></image>
+      <text>100</text>
+      <image src="/Images/icon/collection-anti.png"></image>
+      <text>100</text>
+    </view>
+  </view>
+</view>

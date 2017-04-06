@@ -1,0 +1,7 @@
+<view>
+    <image class="user-avator" src="/Images/4.png"></image>	
+    <text>hello</text>
+	<view>
+		<text>开启小程序</text>
+	</view>
+</view>

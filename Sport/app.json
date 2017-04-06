@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "Pages/first/first",
+    "Pages/start/start"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "cyan",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的小程序"
+  }
+}

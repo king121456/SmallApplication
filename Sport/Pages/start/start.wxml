@@ -1,0 +1,7 @@
+<view class="container">
+ <image src="../../images/avatar/4.png" class="start-logo"></image>
+ <text class="start-name">Hello HouHanBin</text>
+ <view class="start-in">
+    <text class="journey">点击进入主页</text>
+ </view>
+</view>

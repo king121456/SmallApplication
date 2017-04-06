@@ -1,0 +1,13 @@
+{
+    "pages": [
+      "Pages/start/start"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#00FFCC",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "Õ‚–«»À",
+      "backgroundColor": "#00FFCC",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    }
+}

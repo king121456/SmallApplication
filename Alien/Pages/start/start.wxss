@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 250rpx;
+  height: 250rpx;
+  margin-top: 160rpx;
+}
+
+.userName {
+  font-size: 33rpx;
+  font-family: MicroSoft Yahei;
+  font-weight: bolder;
+  margin-top: 100rpx;
+}
+
+.start {
+  font-size: 30rpx;
+  font-family: MicroSoft Yahei;
+  font-weight: bolder;
+  line-height: 88rpx;
+  color: blue;
+}
+
+.start-container {
+  margin-top: 150rpx;
+  border: 1px solid darkorchid;
+  width: 250rpx;
+  height: 88rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+
+page {
+  height: 100%;
+  background-color: aqua;
+}
