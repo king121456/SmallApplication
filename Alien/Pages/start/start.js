@@ -15,5 +15,19 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  onTap:function(){
+   wx.redirectTo({
+     url: '/Pages/post/post',
+     success: function(res){
+       // success
+     },
+     fail: function(res) {
+       // fail
+     },
+     complete: function(res) {
+       // complete
+     }
+   })
   }
 })

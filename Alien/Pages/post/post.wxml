@@ -10,52 +10,22 @@
       <image src="/Images/wx.png"></image>
     </swiper-item>
   </swiper>
-  <view class="post-container">
-    <view class="post-date-user">
-      <image class="post-user" src="/Images/alien.png"></image>
-      <text class="post-date">2017-4-5</text>
+  <block wx:for="{{postData}}" wx:for-item="item" wx:key="userInfoListId">
+    <view class="post-container">
+      <view class="post-date-user">
+        <image class="post-user" src="{{item.postUser}}"></image>
+        <text class="post-date">{{item.postDate}}</text>
+      </view>
+      <text class="post-title">{{item.postTitle}}</text>
+      <image class="post-content-image" src="{{item.postContent}}"></image>
+      <text class="post-content">{{item.postTitle}}</text>
+      <text></text>
+      <view class="post-panel">
+        <image class="post-panel-image" src="{{item.postPaneImage}}"></image>
+        <text class="post-panel-font">100</text>
+        <image class="post-panel-image" src="{{item.postPaneImage2}}"></image>
+        <text class="post-panel-font">100</text>
+      </view>
     </view>
-    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
-    <image class="post-content-image" src="/Images/post/bl.png"></image>
-    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
-    <text></text>
-    <view class="post-panel">
-      <image class="post-panel-image" src="/Images/icon/star.png"></image>
-      <text class="post-panel-font">100</text>
-      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
-      <text class="post-panel-font">100</text>
-    </view>
-  </view>
-  <view class="post-container">
-    <view class="post-date-user">
-      <image class="post-user" src="/Images/alien.png"></image>
-      <text class="post-date">2017-4-5</text>
-    </view>
-    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
-    <image class="post-content-image" src="/Images/post/bl.png"></image>
-    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
-    <text></text>
-    <view class="post-panel">
-      <image class="post-panel-image" src="/Images/icon/star.png"></image>
-      <text class="post-panel-font">100</text>
-      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
-      <text class="post-panel-font">100</text>
-    </view>
-  </view>
-  <view class="post-container">
-    <view class="post-date-user">
-      <image class="post-user" src="/Images/alien.png"></image>
-      <text class="post-date">2017-4-5</text>
-    </view>
-    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
-    <image class="post-content-image" src="/Images/post/bl.png"></image>
-    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
-    <text></text>
-    <view class="post-panel">
-      <image class="post-panel-image" src="/Images/icon/star.png"></image>
-      <text class="post-panel-font">100</text>
-      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
-      <text class="post-panel-font">100</text>
-    </view>
-  </view>
+  </block>
 </view>
