@@ -15,15 +15,47 @@
       <image class="post-user" src="/Images/alien.png"></image>
       <text class="post-date">2017-4-5</text>
     </view>
-    <text>待到山花烂漫时，她在丛中笑</text>
-    <image src="/Images/post/bl.png"></image>
-    <text>待到山花烂漫时，她在丛中笑</text>
+    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
+    <image class="post-content-image" src="/Images/post/bl.png"></image>
+    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
     <text></text>
-    <view class="classname">
-      <image src="/Images/icon/star.png"></image>
-      <text>100</text>
-      <image src="/Images/icon/collection-anti.png"></image>
-      <text>100</text>
+    <view class="post-panel">
+      <image class="post-panel-image" src="/Images/icon/star.png"></image>
+      <text class="post-panel-font">100</text>
+      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
+      <text class="post-panel-font">100</text>
+    </view>
+  </view>
+  <view class="post-container">
+    <view class="post-date-user">
+      <image class="post-user" src="/Images/alien.png"></image>
+      <text class="post-date">2017-4-5</text>
+    </view>
+    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
+    <image class="post-content-image" src="/Images/post/bl.png"></image>
+    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
+    <text></text>
+    <view class="post-panel">
+      <image class="post-panel-image" src="/Images/icon/star.png"></image>
+      <text class="post-panel-font">100</text>
+      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
+      <text class="post-panel-font">100</text>
+    </view>
+  </view>
+  <view class="post-container">
+    <view class="post-date-user">
+      <image class="post-user" src="/Images/alien.png"></image>
+      <text class="post-date">2017-4-5</text>
+    </view>
+    <text class="post-title">待到山花烂漫时，她在丛中笑</text>
+    <image class="post-content-image" src="/Images/post/bl.png"></image>
+    <text class="post-content">待到山花烂漫时，她在丛中笑</text>
+    <text></text>
+    <view class="post-panel">
+      <image class="post-panel-image" src="/Images/icon/star.png"></image>
+      <text class="post-panel-font">100</text>
+      <image class="post-panel-image" src="/Images/icon/collection-anti.png"></image>
+      <text class="post-panel-font">100</text>
     </view>
   </view>
 </view>

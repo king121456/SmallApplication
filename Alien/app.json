@@ -6,7 +6,7 @@
     "window": {
       "navigationBarBackgroundColor": "#00FFCC",
       "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "外星人",
+      "navigationBarTitleText": "小程序",
       "backgroundColor": "#00FFCC",
       "backgroundTextStyle": "light",
       "enablePullDownRefresh": false
